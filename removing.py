@@ -1,6 +1,11 @@
 a_list = list('abzcd')
 print(a_list)
 
+output = []
+
+output.append(''.join(a_list))
+print(output)
+
 a_list.index('z')
 del a_list[2]
 print(a_list)
